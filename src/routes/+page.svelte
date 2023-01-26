@@ -7,6 +7,8 @@
 <div class="container">
   <Header />
   <h1>Reddit Clone</h1>
+  <h2>Today's Top Posts</h2>
+  <PostList />
 </div>
 
 <style>

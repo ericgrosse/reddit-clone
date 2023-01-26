@@ -3,10 +3,9 @@
 </script>
 
 <div class="post">
-  <h2>Title: {post.title}</h2>
-  <p>Content: {post.body}</p>
-  <p>User ID: {post.userId}</p>
-  <p>Post ID: {post.id}</p>
+  <h2>{post.title}</h2>
+  <h3>Written by {post.author}</h3>
+  <p>{post.body}</p>
 </div>
 
 <style>
