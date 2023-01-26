@@ -1,12 +1,12 @@
 <script>
-  import Header from '../components/Header.svelte';
-  import PostList from '../components/PostList.svelte';
-  import NewPost from '../components/NewPost.svelte';
+  import Header from "../../components/Header.svelte";
+  import NewPost from "../../components/NewPost.svelte";
 </script>
 
-<div class="container">
+<div class="container create-post">
   <Header />
-  <h1>Reddit Clone</h1>
+  <h1>Create Post</h1>
+  <NewPost />
 </div>
 
 <style>
