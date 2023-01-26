@@ -1,10 +1,11 @@
 <script>
   import PostList from '../components/PostList.svelte';
+  import NewPost from '../components/NewPost.svelte';
 </script>
 
 <div class="container">
   <h1>Reddit Clone</h1>
-  <PostList />
+  <NewPost />
 </div>
 
 <style>
