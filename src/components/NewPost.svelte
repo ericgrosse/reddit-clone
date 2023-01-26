@@ -1,4 +1,6 @@
 <script>
+  import { navigate } from 'svelte-routing';
+  
   let title;
   let author;
   let body;
@@ -34,6 +36,7 @@
     console.log(body);
 
     createNewRedditPost(title, author, body);
+    navigate('/'); // After creating the reddit post, navigate back to the homepage
   }
 
   function handleTitle(evt) {
